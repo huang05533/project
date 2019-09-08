@@ -1,0 +1,155 @@
+.jia-box{
+	width: 100%;
+	height: 80px;
+	// background-color: pink;
+}
+.jia{
+	width: 96vw;
+	height: 80px;
+	line-height: 80px;
+	margin:0px auto;
+	// border:1px solid red; 
+	font-size:16px;
+}
+.jia a{
+	color:red;
+	font-size: 18px;
+}
+
+/* 主体部分 */
+.tea-main{
+	width:100%;
+	height:76vw;
+	background-color:#ccc;
+}
+.tea-ul{
+	width:96vw;
+	height:65vw;
+	margin:0px auto;
+	// border:1px solid red;
+	background-color:white; 
+}
+.tea-li{
+	float: left;
+	margin-top: 5px;
+	margin-right: 0.3vw;
+	width:13.3vw;
+	height:20vw;
+	border:1px solid #ccc;
+	border-top:1px solid #f0f0f0; 
+	position: relative;
+	padding:0.3vw;
+	background-color:white;
+	border-radius: 10px;
+	box-shadow: 0px 2px 0px #ccc;
+	transiton:1s;
+}
+.kuang{
+	display: block;
+	width:12.52vw;
+	height:14.3vw;
+	// border:1px solid green;
+}
+.kuang img{
+	width:9vw;
+	height:12.5vw;
+	margin-top:1.5vw;
+	margin-left: 1.6vw;
+}
+.yang{
+	display: block;
+	position:absolute;
+	width:12.9vw;
+	height:0vw;
+	border-bottom:1px solid #ccc;
+	background-color: white;
+	position:absolute;
+	line-height:2vw;
+	text-align: center;
+	color:black;
+	bottom:5vw;
+	left: 0.2vw;
+	color:white;
+}
+.author,.nu{
+	position:absolute;
+	bottom:0px;
+	width:12.6vw;
+	height:2vw;
+	color:grey;
+	font-size:0.5vw;
+	line-height:2vw;
+	text-align:center;
+}
+.nu{
+	bottom:2vw;
+	font-size:0.7vw;
+	color:black;
+}
+.larg{
+	width:250px;
+	height: 370px;
+	background-color:black;
+	position:absolute;
+	right:-260px;
+	top:-50px;
+	display: none;
+	z-index: 2;
+}
+.larg img{
+	margin: 3px 3px 0px 3px;
+	width:244px;
+	height: 320px;
+}
+.larg-tx{
+	margin-left:10px;
+	line-height:50px;
+	color:#ccc;
+}
+
+@media (max-width:890px) {
+	.tea-li{
+		margin-top: 5px;
+		margin-right: 0.3vw;
+		width:18.7vw;
+		height:26vw;
+		padding:0.3vw;
+	}
+	.kuang{
+		width:17.8vw;
+		height:20vw;
+	}
+	.kuang img{
+		width:14.2vw;
+		height:17.5vw;
+		margin-top:1.5vw;
+		margin-left: 1.6vw;
+	}
+	.yang{
+		width:17.9vw;
+		height:0vw;
+		line-height:2vw;
+		bottom:5vw;
+		left: 0.2vw;
+	}
+	.author,.nu{
+		width:17.8vw;
+		height:2vw;
+		font-size:0.5vw;
+		line-height:2vw;
+	}
+	.nu{
+		bottom:2vw;
+		font-size:0.7vw;
+	}
+
+}
+@media (max-width:890px){
+	.tea-main .tea-ul{
+		height: 135vw;
+	}
+	#tea-big {
+	    height: 153vw;
+	}
+}
+

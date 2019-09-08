@@ -1,0 +1,171 @@
+.navbar-nav{
+	margin-left:60px;
+}
+.bgbg{
+	height:350px;
+	margin-left: 0px;
+	// border:1px solid red;
+}
+.vide {
+	height:350px;
+    width: 120%;
+    margin-left: 0px;
+    background-image: none;
+    overflow: hidden;
+    // border:1px solid blue;
+}
+.vide video{
+	width:123vw;
+	height: 70vw;
+}
+.mid-ul{
+	width:140px;
+}
+
+/* 主体部分 */
+.mv-main{
+	width: 100%;
+	height:62vw;
+	/* background-color: #ccc; */
+	overflow:hidden;
+}
+
+.mv-one{
+	width: 80vw;
+	height: 50vw;
+	margin:10px auto;
+	background-color: white;
+}
+.one-title{
+	width: 80vw;
+	height: 60px;
+	position: relative;
+}
+.one-title span{
+	font-size: 24px;
+	font-family: '微软雅黑';
+}
+.mod{
+	width: 170px;
+	height: 35px;
+	/* border:1px red solid; */
+	position:absolute;
+	top:4px;
+	left:170px;
+}
+.mod li{
+	float: left;
+	width: 70px;
+	height:35px;
+}
+.mod li:nth-child(1){
+	display:none;
+}
+.mod .mo{
+	font-size:16px;
+	line-height: 30px;
+	color:red;
+	text-decoration: none;
+}
+.moi{
+	display: block;
+	width:27px;
+	height:29px;
+	/* border:1px red solid; */
+	background:url('../images/mv-img/more-icon.png') no-repeat;
+}
+
+
+/* 视频部分 */
+.mv-ul{
+	width: 80vw;
+	height: 185px;
+	/*  border:1px red solid;  */
+}
+.mv-li{
+	width: 19.6vw;
+	height: 11vw;
+	float:left;
+	/* border:1px blue solid; */ 
+}
+.mv-li a{
+	display:block;
+	width: 19.6vw;
+	height: 10vw;
+	/* background-color:skyblue; */
+}
+ .mv-li video{
+ 	margin-top:0px;
+	width: 18vw;
+	height: 10vw;
+}
+
+
+
+@media (max-width: 1483px){
+	.mv-main .mv-one{
+		height: 58vw;
+	}
+	#mv-bi {
+	    height:71vw;
+	}
+}
+
+@media (max-width: 1220px){
+	.vide .vidd{
+		width:1200px;
+		height: 770px;
+	}
+	.mv-main .mv-one{
+		height: 68vw;
+	}
+	#mv-bi {
+	    height:85vw;
+	}
+}
+@media (max-width: 980px){
+	.mv-main .mv-one{
+		height: 82vw;
+	}
+	#mv-bi {
+	    height:103vw;
+	}
+}
+@media (max-width: 860px){
+	.mv-main .mv-one{
+		height: 606vw;
+	}
+	#mv-bi {
+	    height:630vw;
+	}
+	.mv-one .mv-ul {
+		width: 80vw;
+		height: 193vw;
+	}
+	.mv-one .mv-ul .mv-li {
+		width: 80vw;
+		margin: 10px 0px;
+		height: 45vw;
+	}
+	.mv-li a{
+		width: 80vw;
+		height: 45vw;
+	}
+	 .mv-li video{
+		width: 80vw;
+		height: 45vw;
+	}
+}
+@media (max-width: 770px){
+	.navbar-nav{
+		margin-left:0px;
+	}
+}
+@media (max-width: 670px){
+	.mv-main .mv-one{
+		height: 626vw;
+	}
+	#mv-bi {
+	    height:660vw;
+	}
+}
