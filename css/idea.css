@@ -18,7 +18,6 @@
 .f-sou{
 	width:100%;
 	height:35px;
-	/* border: 1px solid red; */
 	position:absolute;
 	top:230px;
 }
@@ -26,14 +25,12 @@
 	width:500px;
 	height:35px;
 	margin:0px auto;
-	/* border: 1px solid blue; */
 }
 .sou-nav li{
 	width:50px;
 	height:35px;
 	line-height: 35px;
 	text-align: center;
-	/* border: 1px solid pink; */
 	float: left;
 }
 .sou-nav li:nth-child(1){
@@ -49,15 +46,11 @@
 .mid-nav{
 	width:100%;
 	height: 70px;
-	 /*background-color:pink;*/
-	/*position:absolute;*/
-	/*top:344px;*/
 	margin-top: 288px;
 }
 .mid-ul{
 	width:423px;
 	height: 70px;
-	/* border: 1px solid red; */
 	margin:0px auto;
 }
 .mid-ul li{
@@ -73,35 +66,26 @@
 	border-bottom: 3px solid red;
 }
 
-
-
 /* 主体部分 */
 .ide-main{
 	width:100%;
 	height: 93vw;
-	// border: 1px solid skyblue;
-	// background-color: pink;
-	/*position:absolute;*/
-	/*top:420px;*/
 }
 
 /* 第一版 */
 .main-one{
 	width:100%;
 	height: 1200px;
-	// background-color: pink;
 }
 .one-title{
 	width:100%;
 	height: 80px;
-	/* border: 1px solid orange; */
 	position:relative;
 }
 .one-title h3{
 	width:180px;
 	height: 80px;
 	line-height: 80px;
-	/* border: 1px solid orange; */
 	margin-top: 0px;
 	text-align:center;
 	font-size:32px;
@@ -114,19 +98,12 @@
 	font-size: 16px;
 	color:grey;
 }
-
-
-
-
 /* 图片 */
 .one-img{
 	width:100%;
 	height:75vw;
-	// background-color: skyblue;
 }
 .col-md-3{
-	/* width: 378px;
-	height: 378px; */
 	width:23.77vw;
 	height: 23.77vw;
 	padding-left: 10px;
@@ -136,13 +113,11 @@
 	position:relative;	
 	 overflow: hidden;
 	 padding-right: 10px; 
-	 // border:1px solid blue; 
 }
 .img1{
 	width: 101.5%;
 	height: 21vw;
 	overflow: hidden; 
-	// border:1px solid red;
 }
 .img1 img{
 	width: 27vw;
@@ -151,7 +126,6 @@
 }
 .img1 img:hover{
 	transform: scale(1.2);
-	/* opacity: 0.8; */
 }
 #s1,#s2{
 	position:absolute;
@@ -172,7 +146,6 @@
 	right:3.5vw;
 }
 .img2{
-	// width:41.1vw;
 	width:100.7%;
 }
 .img2 img{
@@ -194,7 +167,6 @@
 	width: 41.8vw;
 }
 .c2{
-	/* width:613px; */
 	width: 42.2vw;
 }
 .c5{
@@ -234,19 +206,14 @@
 	width:30vw;
 }
 
-
-
-
 @media (max-width: 1300px){
 	.mian-sj .mian-sj-box{
-		/* height:1200px; */ 
 		height: 65vw;
 	}
 	.caption h3{
 		margin-top:10px;
 		font-size:1.4em;
 	}
-
 }
 
 @media (max-width: 885px){
@@ -265,8 +232,6 @@
 	.one-img{
 		height:98vw;
 	}
-	
-
 }
 @media (max-width: 600px){
 	.navbar-nav{                               

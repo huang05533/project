@@ -1,14 +1,12 @@
 .jia-box{
 	width: 100%;
 	height: 80px;
-	// background-color: pink;
 }
 .jia{
 	width: 96vw;
 	height: 80px;
 	line-height: 80px;
 	margin:0px auto;
-	// border:1px solid red; 
 	font-size:16px;
 }
 .jia a{
@@ -26,7 +24,6 @@
 	width:96vw;
 	height:65vw;
 	margin:0px auto;
-	// border:1px solid red;
 	background-color:white; 
 }
 .tea-li{
@@ -48,7 +45,6 @@
 	display: block;
 	width:12.52vw;
 	height:14.3vw;
-	// border:1px solid green;
 }
 .kuang img{
 	width:9vw;
@@ -106,7 +102,6 @@
 	line-height:50px;
 	color:#ccc;
 }
-
 @media (max-width:890px) {
 	.tea-li{
 		margin-top: 5px;
@@ -142,7 +137,6 @@
 		bottom:2vw;
 		font-size:0.7vw;
 	}
-
 }
 @media (max-width:890px){
 	.tea-main .tea-ul{

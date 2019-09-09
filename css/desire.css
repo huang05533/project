@@ -147,11 +147,6 @@
 }
 
 
-
-
-
-
-
 /* 中间导航条 */
 .desi-nav{
 	width:100%;
@@ -183,7 +178,6 @@
 	text-align: center;
 }
 .opt-ul li:hover{
-	// background-color:#ccc;
 	border: 1px solid #f0f0f0;
 	box-shadow: 2px 4px 3px #ccc;
 	border-radius:5px;
@@ -244,7 +238,6 @@
 .des-pt a{
 	margin:0.5vw;
 	display:block;
-	// border:1px solid green;
 	width:23vw;
 	height:12.3vw;
 	overflow:hidden;
@@ -273,7 +266,6 @@
 	width:80vw;
 	height:33vw;
 	margin:0px auto;
-	/* border:1px solid blue; */
 }
 .des-p2{
 	width:80vw;
@@ -299,14 +291,12 @@
 .p2-ul{
 	width:80vw;
 	height:27vw;
-	/* border:1px solid blue; */
 }
 .p2-li{
 	float:left;
 	width:19.2vw;
 	height:27vw;
 	margin:0px 0.5vw;
-	// border:1px solid red;
 	padding:0.5vw;
 	background-color:white;
 	box-shadow:0px 0px 5px #ccc;
@@ -321,7 +311,6 @@
 	display:block;
 	width:18.2vw;
 	height:25.8vw;
-	/* border:1px solid green; */
 }
 .jinqiu img{
 	width:18.2vw;
@@ -378,16 +367,11 @@
 	display:block;
 	width:11.5vw;
 	height:11.5vw;
-	/* border:1px solid green; */
 }
 .zongzi img{
 	width:11.5vw;
 	height:11.5vw;
 }
-
-
-
-
 
 @media (max-width: 1400px) {
 	.desi-nav{

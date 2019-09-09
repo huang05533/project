@@ -4,7 +4,6 @@
 .bgbg{
 	height:350px;
 	margin-left: 0px;
-	// border:1px solid red;
 }
 .vide {
 	height:350px;
@@ -12,7 +11,6 @@
     margin-left: 0px;
     background-image: none;
     overflow: hidden;
-    // border:1px solid blue;
 }
 .vide video{
 	width:123vw;
@@ -21,15 +19,12 @@
 .mid-ul{
 	width:140px;
 }
-
 /* 主体部分 */
 .mv-main{
 	width: 100%;
 	height:62vw;
-	/* background-color: #ccc; */
 	overflow:hidden;
 }
-
 .mv-one{
 	width: 80vw;
 	height: 50vw;
@@ -48,7 +43,6 @@
 .mod{
 	width: 170px;
 	height: 35px;
-	/* border:1px red solid; */
 	position:absolute;
 	top:4px;
 	left:170px;
@@ -71,37 +65,28 @@
 	display: block;
 	width:27px;
 	height:29px;
-	/* border:1px red solid; */
 	background:url('../images/mv-img/more-icon.png') no-repeat;
 }
-
-
 /* 视频部分 */
 .mv-ul{
 	width: 80vw;
 	height: 185px;
-	/*  border:1px red solid;  */
 }
 .mv-li{
 	width: 19.6vw;
 	height: 11vw;
 	float:left;
-	/* border:1px blue solid; */ 
 }
 .mv-li a{
 	display:block;
 	width: 19.6vw;
 	height: 10vw;
-	/* background-color:skyblue; */
 }
  .mv-li video{
  	margin-top:0px;
 	width: 18vw;
 	height: 10vw;
 }
-
-
-
 @media (max-width: 1483px){
 	.mv-main .mv-one{
 		height: 58vw;
@@ -110,7 +95,6 @@
 	    height:71vw;
 	}
 }
-
 @media (max-width: 1220px){
 	.vide .vidd{
 		width:1200px;
