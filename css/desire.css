@@ -44,7 +44,8 @@
 }
 .js-silder{
 	position: relative;	
-	min-width: 320px;
+	// min-width: 320px;
+	min-width: 270px;
 }
 .silder-scroll{
 	width: 100%;
@@ -122,28 +123,6 @@
 }
 .silder-ctrl-con.active>span{
 	background-color: red;
-}
-
-@media (max-width: 768px){
-	.silder-ctrl-prev,
-	.silder-ctrl-next{
-		width: 10%;
-		font-size: 26px;
-		margin-top: -25px;
-	}
-	.silder-ctrl-con{
-		width: 14px;
-		height: 14px;
-		padding: 0;
-		margin: 0 5px;
-	}
-	.silder-ctrl-con>span{
-		display: block;
-		width: 100%;
-		height: 100%;
-		border-radius: 50%;
-		padding: 0;
-	}
 }
 
 
@@ -402,12 +381,30 @@
 		height:21vw;
 	}
 }
-
+@media (max-width: 768px){
+	.silder-ctrl-prev,
+	.silder-ctrl-next{
+		width: 5%;
+		margin-top: 2vw;
+	}
+	.silder-ctrl-con{
+		width: 14px;
+		height: 14px;
+		padding: 0;
+		margin: 0 5px;
+	}
+	.silder-ctrl-con>span{
+		display: block;
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		padding: 0;
+	}
+}
 @media (max-width: 756px) {
 	.desi-nav{
 		height: 37vw;
 	}
-
 	.desi-main .des-one{
 		height: 24vw;
 	}
@@ -418,16 +415,60 @@
 		width:22vw;
 		height:11.5vw;
 	}
+	.des-p2 {
+	    height: 7vw;   
+	}
+	.p2-ul{
+		height: 30vw;	
+	}
+	.des-p3{
+		height: 15vw;		
+	}
+	.desi-main .des-three {
+	    height: 36vw;
+	}
+	.desi-main {
+	    height: 108vw;
+	}
 }
 @media (max-width: 585px) {
+	.silder-ctrl-prev,
+	.silder-ctrl-next{
+		margin-top: 4vw;
+	}
 	.desi-nav{
 		height: 50vw;
 	}
 	.desi-main .des-one{
 		height: 24vw;
 	}
+
+}
+@media (max-width: 545px){
+	.desi-main .des-two {
+	    height: 46vw;
+	}
+	.desi-main .des-three {
+	    height: 36vw;
+	}
+	.desi-main {
+	    height: 108vw;
+	}
+	.des-p2 {
+	    height: 16vw;   
+	}
+	.p2-ul{
+		height: 30vw;	
+	}
+	.des-p3{
+		height: 15vw;		
+	}
 }
 @media (max-width: 480px) {
+	.silder-ctrl-prev,
+	.silder-ctrl-next{
+		margin-top: 6vw;
+	}
 	.desi-nav{
 		height: 326px;
 	}
@@ -448,14 +489,13 @@
 	    height: 208vw;
 	}
 	.desi-main .des-two {
-	    height: 53vw; 
+	    height: 48vw; 
 	}
 	.desi-main .des-three {
-	    height: 61vw;  
+	    height: 42vw;  
 	}
 	.des-p3 {
-	    height: 35vw;
-	    // border:1px solid red;
+	    height: 18vw;
 	}
 	.des-pt a{
 	    width: 22.8vw;
@@ -464,5 +504,41 @@
 	.des-pt a img {
 	    width: 25vw;
 	    height: 13vw;
+	}
+}
+
+@media (max-width: 350px){
+	.des-p2{
+		margin-top:20px;
+		height: 17vw;	
+	}
+	.des-p3{
+		height: 25vw;	
+	}
+	.des-p2 li, .des-p3 li{
+	    height: 22px;
+	    line-height:22px;
+	}
+	.p2-ul {
+	    height: 25vw;
+	}
+}
+@media (max-width: 300px){
+	.des-p2{
+		height: 24vw;	
+	}
+	.des-p3{
+		height: 30vw;	
+	}
+	.des-p2 li {
+	    height: 25px;
+	    line-height:25px;
+	}
+	.des-p3 li {
+	    height: 25px;
+	    line-height:25px;
+	}
+	.p2-ul {
+	    height: 30vw;
 	}
 }

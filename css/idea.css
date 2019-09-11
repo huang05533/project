@@ -69,7 +69,7 @@
 /* 主体部分 */
 .ide-main{
 	width:100%;
-	height: 93vw;
+	height: 90vw;
 }
 
 /* 第一版 */
@@ -97,6 +97,7 @@
 	left:200px;
 	font-size: 16px;
 	color:grey;
+	padding: 5px;
 }
 /* 图片 */
 .one-img{
@@ -129,7 +130,7 @@
 }
 #s1,#s2{
 	position:absolute;
-	bottom: -50px;
+	bottom: -100px;
 	display: block;
 	width: 6vw;
 	height: 2.5vw;
@@ -144,66 +145,6 @@
 }
 #s2{
 	right:3.5vw;
-}
-.img2{
-	width:100.7%;
-}
-.img2 img{
-	width:41.5vw;
-}
-.img3{
-	width:101%;
-}
-.img3 img{
-	width:35vw;
-}
-.t3{
-	width:31vw;
-}
-.c3{
-	width:32vw;
-}
-.t2{
-	width: 41.8vw;
-}
-.c2{
-	width: 42.2vw;
-}
-.c5{
-	width:34vw;
-}
-.img5{
-	width: 101%;
-}
-.img5 img{
-	width: 35vw;
-}
-.t5{
-	width:33.2vw;
-}
-.c6{
-	width:38.7vw;
-}
-.img6{
-	width: 101%;
-}
-.img6 img{
-	width: 39vw;
-}
-.t6{
-	width:39vw;
-}
-.c7{
-	width:31vw;
-}
-.img7{
-	width: 101%;
-}
-.img7 img{
-	width: 30vw;
-}
-.t7{
-	width:30vw;
 }
 
 @media (max-width: 1300px){
@@ -230,16 +171,27 @@
 		font-size:0.7em;
 	}
 	.one-img{
-		height:98vw;
+		height:77vw;
+	}
+	#s1,#s2{
+		width: 9vw;
+		height: 5vw;
+		line-height:5vw;
+	}
+	#s1{
+		right:11vw;
+	}
+	#s2{
+		right:2vw;
 	}
 }
 @media (max-width: 600px){
 	.navbar-nav{                               
-		width:350px; 
-		height: 380px;
+		width:99.5vw;
+		height: 300px;
 	}
 	.search-box{
-		width:320px;
+		width:270px;
 	}
 	.navbar-default .navbar-nav > li > a {
 	    color:black;
@@ -258,11 +210,22 @@
 	#sj{
 		height: 400vw;
 	}
+	#s1,#s2{
+		width: 9vw;
+		height: 5vw;
+		line-height:5vw;
+	}
+	#s1{
+		right:11vw;
+	}
+	#s2{
+		right:2vw;
+	}
 }
 
 @media (max-width: 480px){
 	.sou-nav{
-		width:50vw;
+		width:56vw;
 	}
 	.mid-ul{
 		width:94%;
@@ -270,23 +233,60 @@
 		margin:0px auto;	
 	}
 	.mid-ul li{
-		width:30%;
+		width:29%;
 		height: 70px;
 		margin:0px 5px;
-		font-size:20px;
+		font-size:18px;
 	}
 	.one-title{
-		height: 43vw;
+		height: 47vw;
 	}
 	.one-title h3{
-		width:40%;	
+		width:48%;	
 	}
 	.one-title p{
+		
 		top:20vw;
 		line-height: 30px;
 		left:0px;
-		font-size: 16px;
-		// border:1px solid red;
+		font-size: 16px; 
 	}
-
+	.img1{
+		width: 115.5%;
+	}
+	#s1,#s2{
+		width: 9vw;
+		height: 5vw;
+		line-height:5vw;
+	}
+	#s1{
+		right:10vw;
+	}
+	#s2{
+		right:1vw;
+	}
+}
+@media (max-width: 400px){
+	#s1,#s2{
+		width: 6vw;
+		height: 16vw;
+		line-height:5vw;
+	}
+	#s1{
+		right:11vw;
+	}
+	#s2{
+		right:3vw;
+	}
+}
+@media (max-width: 275px){
+	#s1,#s2{
+		width: 8vw;
+	}
+	#s1{
+		right:9vw;
+	}
+	#s2{
+		right:2vw;
+	}
 }

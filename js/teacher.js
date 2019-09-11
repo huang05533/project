@@ -18,17 +18,4 @@ $(function(){
 		});
 	});
 
-	// var d=$(window).width();
-	// if(d<481){
-	// 	$('.tea-li').hover(function() {
-	// 		$(this).children('.yang').css({
-	// 			height: '4vw',
-	// 		});
-	// 	}, function() {
-	// 		$(this).children('.yang').css({
-	// 			height: '0vw',
-	// 		});
-	// 	});
-	// }
-
 })

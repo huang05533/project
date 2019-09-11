@@ -260,12 +260,11 @@
 	    height: 90vw;
 	}
 	.mus-li:nth-child(7) .mus-up {
-	    right: 51vw;
+	    right: 47vw;
 	}
 	.mus-photo .photo-li {
 	    width: 80vw;
 	    height: 45vw;
-	    // border:1px solid red;
 	}
 	.photo-li a {
 	    width: 80vw;
@@ -284,5 +283,10 @@
 	}
 	.bla-text {
 	    line-height: 45vw;
+	}
+}
+@media (max-width:350px){
+	#mus-nav {
+	    height: 107vw;
 	}
 }

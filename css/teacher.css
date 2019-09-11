@@ -58,7 +58,6 @@
 	width:12.9vw;
 	height:5vw;
 	border-bottom:1px solid #ccc;
-	// background-color: white;
 	background-color:rgba(0,0,0,0);
 	position:absolute;
 	line-height:5vw;
@@ -152,7 +151,6 @@
 	.kuang{
 		width:45vw;
 		height:50vw;
-		// border:1px solid red;
 	}
 	.kuang img{
 		width:42.2vw;
@@ -174,7 +172,6 @@
 	}
 	.nu{
 		bottom:0vw;
-		// border:1px solid red;
 	}
 	.tea-main .tea-ul{
 		height: 778vw;

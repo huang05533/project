@@ -23,6 +23,10 @@ a{
 	margin-left:-20px;
 }
 /* logo */
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand
+ {
+    margin-left: 0px;
+}
 .navbar-brand{
 	margin:20px;
 	width: 103px;
@@ -447,23 +451,26 @@ video{
 }
 @media (max-width: 600px){
 	.search-box{
-		width:320px;
+		width:270px;
 	}
 	.navbar-nav{
 		width:99.5vw;
 		height: 300px;
 	}
 	.navbar-li{
-		width:18.8vw;
+		width:18.5vw;
 		margin:0px;	
 	}
 	.navbar-li:nth-child(1){
-		width:23vw;
+		width:24vw;
 	}
 	.navbar-default .navbar-nav > li > a {	
 		font-size:13px;
 		width:16vw;
 	    color:black;
+	}
+	.navbar-default .navbar-nav > li:nth-child(1) > a {	
+		width:20vw;
 	}
 	.navbar-default .navbar-nav > li > a:hover {
 	    color:black;
@@ -492,8 +499,7 @@ video{
 	.vid {
 	    width: 100%;
 	    height: 60vw;
-	    overflow: hidden;
-	    border:1px solid red;
+	    overflow: hidden;   
 	}
 	video {
 	    margin-top: -60vw;
@@ -503,6 +509,9 @@ video{
 	}
 }
 @media (max-width: 480px){
+	.mian-sj{
+		height: 695vw;
+	}
 	.mian-sj .col-md-3 {
 	    position: relative;
 	    padding-right: 0px;
@@ -519,7 +528,7 @@ video{
 		font-size:1.2em;
 	}
 	#sj{
-		height: 490vw;
+		height: 498vw;
 	}
 	.vid {
 	    width: 100%;
@@ -531,6 +540,9 @@ video{
 	    margin-left:-30vw;
 	    width: 160vw;
 	    height: 200vw;
+	}
+	.slide-ch {
+	    height: 562px;
 	}
 }
 	
