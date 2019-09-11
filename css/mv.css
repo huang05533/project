@@ -1,3 +1,6 @@
+.navbar-brand {
+    margin-top: 8px;
+}
 .navbar-nav{
 	margin-left:60px;
 }
@@ -151,5 +154,31 @@
 	}
 	#mv-bi {
 	    height:660vw;
+	}
+}
+@media (max-width: 480px){
+	.navbar-nav{
+		margin-left:-15px;
+	}
+	.mid-ul li {
+	    width: 80%;
+	}
+	video {
+	    margin-top: 0;
+	    margin-left:0;
+	    width: 160vw;
+	    height: 200vw;
+	}
+	.xi .mod{
+		top:4px;
+	}
+	.mod{
+		top:28px;
+	}
+	.mv-main .mv-one {
+	    height: 651vw;
+	}
+	#mv-bi {
+	    height: 709vw;
 	}
 }

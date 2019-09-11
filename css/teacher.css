@@ -56,16 +56,16 @@
 	display: block;
 	position:absolute;
 	width:12.9vw;
-	height:0vw;
+	height:5vw;
 	border-bottom:1px solid #ccc;
-	background-color: white;
+	// background-color: white;
+	background-color:rgba(0,0,0,0);
 	position:absolute;
-	line-height:2vw;
+	line-height:5vw;
 	text-align: center;
-	color:black;
 	bottom:5vw;
 	left: 0.2vw;
-	color:white;
+	color:rgba(0,0,0,0);
 }
 .author,.nu{
 	position:absolute;
@@ -122,7 +122,7 @@
 	}
 	.yang{
 		width:17.9vw;
-		height:0vw;
+		height:2vw;
 		line-height:2vw;
 		bottom:5vw;
 		left: 0.2vw;
@@ -137,8 +137,6 @@
 		bottom:2vw;
 		font-size:0.7vw;
 	}
-}
-@media (max-width:890px){
 	.tea-main .tea-ul{
 		height: 135vw;
 	}
@@ -146,4 +144,44 @@
 	    height: 153vw;
 	}
 }
+@media (max-width:480px){
+	.tea-li{
+		width:47vw;
+		height:68vw;	
+	}
+	.kuang{
+		width:45vw;
+		height:50vw;
+		// border:1px solid red;
+	}
+	.kuang img{
+		width:42.2vw;
+		height:48vw;
+		margin-top:1.5vw;
+		margin-left: 1.6vw;
+	}
+	.yang{
+		width:45.7vw;
+		height:6vw;
+		line-height:6vw;
+		bottom:15vw;
+	}
+	.author,.nu{
+		width:45.5vw;
+		height:6vw;
+		line-height:6vw;
+		bottom:6vw;
+	}
+	.nu{
+		bottom:0vw;
+		// border:1px solid red;
+	}
+	.tea-main .tea-ul{
+		height: 778vw;
+	}
+	#tea-big {
+	    height: 153vw;
+	}
+}
+
 

@@ -252,3 +252,37 @@
 	    height: 261vw;
 	}
 }
+@media (max-width:480px){
+	.mus-main {
+	    height: 760vw;  
+	}
+	#mus-nav {
+	    height: 90vw;
+	}
+	.mus-li:nth-child(7) .mus-up {
+	    right: 51vw;
+	}
+	.mus-photo .photo-li {
+	    width: 80vw;
+	    height: 45vw;
+	    // border:1px solid red;
+	}
+	.photo-li a {
+	    width: 80vw;
+	    height: 45vw;
+	}
+	.photo-li a img {
+	    width: 80vw;
+	    height: 45vw;
+	}
+	.mus-photo {
+	    height: 590vw;
+	}
+	.bla {
+	    width: 80vw;
+	    height: 45vw;
+	}
+	.bla-text {
+	    line-height: 45vw;
+	}
+}

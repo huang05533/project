@@ -429,13 +429,40 @@
 }
 @media (max-width: 480px) {
 	.desi-nav{
-		height: 280px;
+		height: 326px;
+	}
+	.opt-ul{
+		height: 8vw;
 	}
 	.desi-main .des-one{
-		height: 130px;
+		height: 30vw;
 	}
 	.des-pt a{
 		width:21.5vw;
 		height:11vw;
+	}
+	.opt-ul li{
+		margin: 0px 5px;	
+	}
+	.desi-main {
+	    height: 208vw;
+	}
+	.desi-main .des-two {
+	    height: 53vw; 
+	}
+	.desi-main .des-three {
+	    height: 61vw;  
+	}
+	.des-p3 {
+	    height: 35vw;
+	    // border:1px solid red;
+	}
+	.des-pt a{
+	    width: 22.8vw;
+    	height: 12.5vw;
+	}
+	.des-pt a img {
+	    width: 25vw;
+	    height: 13vw;
 	}
 }

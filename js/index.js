@@ -51,28 +51,6 @@ $(function(){
 		$(this).children('p').css('color', 'grey');
 	})
 
-
-	//搜索框
-	$('.sear-one').hover(function(){
-		$('.sea-ul').show();
-		$(this).children('.no').css('transform', 'rotate(180deg)');
-	}, function() {
-		$('.sea-ul').hide();
-		$(this).children('.no').css('transform', 'rotate(0deg)');
-	})
-
-
-	//图片轮播
-	// var timer;
-	// var n=0;
-	// timer=setInterval(function(){
-	// 	n++;
-	// 	if (n>5) {}
-	// 	$('.ch-img-l').animate({'left': -100*n+'px'}, 3000);
-
-	// },100)
-
-
 	//鼠标移到视频，播放
 	$('.vid').mouseenter(function(event) {
 		$(this).children('video').trigger('play')
