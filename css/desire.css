@@ -506,7 +506,27 @@
 	    height: 13vw;
 	}
 }
-
+@media (max-width: 445px){
+	.desi-main .des-two {
+	    height: 49vw;  
+	    // border:1px solid red;
+	}
+	.des-p2{
+		height: 15vw;
+	}
+	.des-p3{
+		height: 18vw;	
+		// border:1px solid red;
+	}
+	.des-p2 li, .des-p3 li{
+	    height: 22px;
+	    line-height:22px;
+	}
+	.p2-ul {
+	    height: 30vw;
+	    // border:1px solid red;
+	}
+}
 @media (max-width: 350px){
 	.des-p2{
 		margin-top:20px;

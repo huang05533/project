@@ -178,6 +178,14 @@
 		margin-left:0px;
 	}
 }
+@media (max-width: 490px){
+	.mod {
+	    top: 2vw;
+	}
+	.xi .mod{
+		top:1vw;
+	}
+}
 @media (max-width: 480px){
 	.navbar-nav{
 		margin-left:-15px;
@@ -193,7 +201,7 @@
 		top:4px;
 	}
 	.mod{
-		top:28px;
+		top:0.5vw;
 	}
 	.mv-main .mv-one {
 	    height: 695vw;
